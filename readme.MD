@@ -11,6 +11,7 @@ You can SSH in and use it immediately
 
 
 Prerequisites (Before Starting):-
+
 1.Terraform installed: https://www.terraform.io/downloads
 2.AWS Account with credentials (Access Key & Secret Key)
 3.Git installed
