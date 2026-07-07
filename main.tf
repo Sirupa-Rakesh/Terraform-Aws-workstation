@@ -29,7 +29,7 @@ resource "aws_instance" "rakesh_workstation" {
 
 resource "terraform_data" "cluster_destroy" {
   input = {
-    host     = aws_instance.workstation.public_ip
+    host     = aws_instance.rakesh_workstation.public_ip
     password = var.ssh_password
   }
 
