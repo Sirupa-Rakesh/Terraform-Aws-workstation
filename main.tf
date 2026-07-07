@@ -1,4 +1,4 @@
-resource "aws_instance" "rakesh_workstation" {
+resource "aws_instance" "workstation" {
   ami           = local.ami_id
   instance_type = "t3.micro"
   vpc_security_group_ids = [aws_security_group.workstation.id]
@@ -29,7 +29,7 @@ resource "aws_instance" "rakesh_workstation" {
 
 resource "terraform_data" "cluster_destroy" {
   input = {
-    host     = aws_instance.rakesh_workstation.public_ip
+    host     = aws_instance.workstation.public_ip
     password = var.ssh_password
   }
 

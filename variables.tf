@@ -1,5 +1,5 @@
 variable "project" {
-    default = "rakesh_dev"
+    default = "roboshop"
 }
 
 variable "environment" {

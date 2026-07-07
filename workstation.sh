@@ -64,5 +64,5 @@ cd eksctl
 sudo -u ec2-user /usr/local/bin/eksctl create cluster -f eks.yaml
 
 # Authenticate kubectl with the cluster
-sudo -u ec2-user aws eks update-kubeconfig --region us-east-1 --name rakesh_dev
+sudo -u ec2-user aws eks update-kubeconfig --region us-east-1 --name roboshop
 sudo -u ec2-user /usr/local/bin/kubectl get nodes
