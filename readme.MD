@@ -1,23 +1,29 @@
 Terraform AWS Workstation - Simple Guide
+
 What Does This Do?
+
 Creates a ready-to-use Kubernetes workstation on AWS with Docker, kubectl, k9s, and an EKS cluster.
 
-In simple terms:-
-1.Creates a virtual computer on AWS
-2.Installs DevOps tools on it
-3.Creates a Kubernetes cluster
+In simple terms:
+
+
+Creates a virtual computer on AWS
+Installs DevOps tools on it
+Creates a Kubernetes cluster
 You can SSH in and use it immediately
 
 
 
-Prerequisites (Before Starting):-
-
-1.Terraform installed: https://www.terraform.io/downloads
-2.AWS Account with credentials (Access Key & Secret Key)
-3.Git installed
+Prerequisites (Before Starting)
 
 
-Verify installations:-
+Terraform installed: https://www.terraform.io/downloads
+AWS Account with credentials (Access Key & Secret Key)
+Git installed
+
+
+Verify installations:
+
 bashterraform -version
 aws --version
 git --version
